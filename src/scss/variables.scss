@@ -1,0 +1,43 @@
+$btn-font-weight: normal;
+$btn-text-transform: none;
+$btn-letter-spacing: normal;
+
+$btn-sizes: (
+        'default': 50,
+        'large': 54,
+        'x-large': 55
+);
+
+$btn-font-sizes: (
+        'default': 18
+);
+
+$fab-sizes: (
+        'x-small': 18,
+        'small': 30,
+        'default': 24,
+        'large': 35,
+        'x-large': 32
+);
+$toolbar-content-padding-x: 0;
+$card-title-word-break: break-word;
+
+.container {
+  padding: 0;
+}
+
+.v-card__title, .v-card__subtitle{
+  letter-spacing: normal;
+  font-size: 18px;
+}
+
+.v-card__text {
+  padding: 20px;
+  font-size: 18px;
+  letter-spacing: normal;
+  line-height: 24px;
+}
+
+.v-btn{
+  min-width: auto !important;
+}
